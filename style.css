@@ -9,6 +9,12 @@ body {
   background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
 }
 
+body,
+input,
+button {
+  font-family: 'DM Sans';
+}
+
 main {
   width: min(42.8rem, 90%);
   height: 27.372rem;
@@ -38,9 +44,11 @@ main {
   font-weight: 600;
   line-height: 2.9rem;
   text-align: center;
+
+  color: #34355B;
 }
 
-.text-container h3 {
+.text-container p {
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400;
@@ -65,7 +73,7 @@ main {
 
 .attempties-container .number {
   width: 4.3rem;
-  height: 5.3rem;
+  height: 5.28rem;
 
   display: flex;
   justify-content: center;
@@ -73,16 +81,24 @@ main {
 
   background: #DCE2E9;
   border-radius: 4px 0px 0px 4px;
+
+  border: none;
+}
+
+.attempties-container .number:focus {
+  outline: none;
 }
 
 .attempties-container .button {
   width: 8.2rem;
-  height: 5.3rem;
+  height: 5.5rem;
 
   background: #7879F1;
   border-radius: 0px 4px 4px 0px;
   border: none;
 
   color: #fff;
+
+  cursor: pointer;
 
 }
