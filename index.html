@@ -12,19 +12,23 @@
 <body>
 
   <main>
-      <div class="container">
-
-        <div class="text-container">
-          <h1>Jogo da Adivinhação</h1>
-          <p>Advinhe o número entre 0 e 10</p>
+      <div class=" screen1 hide">
+        <div class="container">
+          <div class="text-container">
+            <h1>Jogo da Adivinhação</h1>
+            <p>Advinhe o número entre 0 e 10</p>
+          </div>
+          <form class="attempties-container">
+            <input type="text" class="number">
+            <button class="button">Tentar</button>
+          </form>
         </div>
+      </div>
 
-        <form class="attempties-container">
-          <input type="text" class="number">
-          <button class="button">Tentar</button>
-        </form>
-
-      </div>  
+      <div class="screen2">
+        <h2>Acertou em 3 tentativas!</h2>
+        <button class="button button2">Jogar novamente</button>
+      </div>
   </main>
   
 

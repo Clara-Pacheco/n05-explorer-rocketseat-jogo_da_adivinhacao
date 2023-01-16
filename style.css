@@ -27,12 +27,18 @@ main {
   margin: 20rem auto 24.6rem;
 }
 
+.hide {
+  display: none;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
+/* Screen1 */ 
 
 .text-container {
   margin-top: 4.8rem;
@@ -101,4 +107,55 @@ main {
 
   cursor: pointer;
 
+}
+
+/* Screen2 */
+
+.screen2 {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+
+  gap: 3.3rem;
+}
+
+
+ h2 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #34355B;
+
+  margin-top: 5rem;
+}
+
+.button2 {
+  width: 18.6rem;
+  height: 7.3rem;
+
+  background: #7879F1;
+  border-radius: 4px;
+  border: none;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.1;
+
+  text-align: center;
+
+  color: #FFFFFF;
+
+  transition: transform .5s ease;
+}
+
+.button2:hover {
+  transform: scale(1.03);
 }
