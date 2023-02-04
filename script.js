@@ -8,6 +8,12 @@ const button = document.querySelector(".button")
 const button2 = document.querySelector("#button2")
 const errorMessage = document.createElement("p")
 
+document.addEventListener('keydown', (e)=>{
+  if(e.key == 'Enter' && document.querySelector(".screen1").classList.contains("hide")){
+    window.location.reload()
+  }
+})
+
 button.addEventListener('click',(e)=>{
   e.preventDefault()
 
@@ -29,8 +35,9 @@ button.addEventListener('click',(e)=>{
     button.appendChild(errorMessage)  
     
   }else{
-    const screen1 = document.querySelector(".screen1").classList.add("hide")
-    const screen2 = document.querySelector(".screen2").classList.remove("hide")  
+    // const screen1 = document.querySelector(".screen1").classList.add("hide")
+    // const screen2 = document.querySelector(".screen2").classList.remove("hide") 
+    toggle() 
 
     const h2 = document.querySelector("h2")
 
@@ -51,8 +58,14 @@ button.addEventListener('click',(e)=>{
 })
 
 button2.addEventListener('click',()=>{
-  const screen2 = document.querySelector(".screen2").classList.add("hide")  
-  const screen1 = document.querySelector(".screen1").classList.remove("hide")
+  // const screen2 = document.querySelector(".screen2").classList.add("hide")  
+  // const screen1 = document.querySelector(".screen1").classList.remove("hide")
+  toggle()
   window.location.reload()
 
 })
+
+function toggle(){
+  const screen2 = document.querySelector(".screen2").classList.toggle("hide")  
+  const screen1 = document.querySelector(".screen1").classList.toggle("hide")
+}
