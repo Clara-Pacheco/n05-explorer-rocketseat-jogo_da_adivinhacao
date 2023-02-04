@@ -34,8 +34,7 @@ O resultado final desse desafio deve ser algo em torno de:
 
 ## 🧪 Tecnologias | HTML , CSS e Javascript
 ---
-Nesse desafio, você irá criar um jogo de adivinhação, capturando o input do usuário e comparando-o com o número randômico gerado pelo sistema.
-
+Nesse desafio, você irá criar um jogo de adivinhação, uma pequena aplicação web que envolve HTML, CSS e JS. Iremos descobrir como o javascrit funciona por baixo dos panos, como, por exemplo, quando tentarmos adivinhar um número - como o js irá ler e capturar esse número, como iremos aplicar um evento ao clique dos botões, como a aplicação irá descobrir em quantas vezes acertamos o número "pensado" , como será a alternância entre as 2 telas da aplicação, e, por fim, como fazemos para jogar novamente.
 ##  📕 Sobre  
 
 <p>Este é um projeto desenvolvido em treinamento, juntamente com a 
