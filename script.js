@@ -27,6 +27,7 @@ button.addEventListener('click',(e)=>{
   if(Number(inputValue) !== random){
     errorMessage.style.transform.scale = 0
     button.appendChild(errorMessage)  
+    
   }else{
     const screen1 = document.querySelector(".screen1").classList.add("hide")
     const screen2 = document.querySelector(".screen2").classList.remove("hide")  
@@ -41,8 +42,11 @@ button.addEventListener('click',(e)=>{
    
     
   }
-
+  
   numberAttempts++
+  inputValue = ""
+
+  // Deveria estar limpando o campo de input
   
 })
 
