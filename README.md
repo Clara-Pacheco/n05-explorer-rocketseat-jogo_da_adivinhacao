@@ -3,9 +3,9 @@
 <img width="150px" src="https://www.rocketseat.com.br/_next/image?url=%2Fassets%2Flogos%2Fexplorer.svg&w=256&q=75"  alt="">
 <br>
 <p align="center">
-<img src="https://img.shields.io/github/last-commit/Clara-Pacheco/Desafio_Rocketseat--Nivel4_Explorer--Ex02-Stage04?style=for-the-badge"/>&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/github/repo-size/Clara-Pacheco/Desafio_Rocketseat--Nivel4_Explorer--Ex02-Stage04?style=for-the-badge"/>&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/github/languages/count/Clara-Pacheco/Desafio_Rocketseat--Nivel4_Explorer--Ex02-Stage04?style=for-the-badge"/>
+<img src="https://img.shields.io/github/last-commit/Clara-Pacheco/n05-explorer-rocketseat-jogo_da_adivinhacao"/>&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/github/repo-size/Clara-Pacheco/n05-explorer-rocketseat-jogo_da_adivinhacao"/>&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/github/languages/count/Clara-Pacheco/n05-explorer-rocketseat-jogo_da_adivinhacao"/>
 </p>
 </div>
 
@@ -28,8 +28,9 @@ Principais pontos abordados nesse desafio:
 
 O resultado final desse desafio deve ser algo em torno de:
 
-![Project´s preview](https://github.com/Clara-Pacheco/Desafio_Rocketseat--Nivel4_Explorer--Ex02-Stage04/blob/main/assets/Peek_18-04-2022_01-23.gif)
+![Project´s preview](https://github.com/Clara-Pacheco/n05-explorer-rocketseat-jogo_da_adivinhacao/blob/main/project_preview/Screen1.png)
 
+![Project´s preview](https://github.com/Clara-Pacheco/n05-explorer-rocketseat-jogo_da_adivinhacao/blob/main/project_preview/Screen2.png)
 
 ## 🧪 Tecnologias | HTML , CSS e Javascript
 ---
